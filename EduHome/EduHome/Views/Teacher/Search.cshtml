@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Search";
+}
+
+@foreach (Teacher item in Model)
+{
+    <li>
+        <a>@item.Fullname</a>
+    </li>
+}
